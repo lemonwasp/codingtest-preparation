@@ -23,6 +23,14 @@ This repository is not a collection of random solved problems. Every solution sh
 
 Detailed plan: [`docs/8-week-roadmap.md`](docs/8-week-roadmap.md)
 
+## Study Progress
+
+| Date | Focus | Status |
+|---|---|---|
+| 2026-08-31 | Python basics, List, Dict, Set, Sorting | Started |
+
+Daily log: [`daily/2026-08-31.md`](daily/2026-08-31.md)
+
 ## Study Rules
 
 - Primary language: **Python 3** for speed and concise implementation.
@@ -36,6 +44,8 @@ Detailed plan: [`docs/8-week-roadmap.md`](docs/8-week-roadmap.md)
 
 ```text
 .
+├── daily/
+│   └── 2026-08-31.md
 ├── docs/
 │   ├── 8-week-roadmap.md
 │   └── solving-checklist.md
