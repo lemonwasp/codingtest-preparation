@@ -37,6 +37,18 @@
 # - Iterating over a dict directly produces its keys, not its values.
 # - The required check is whether every frequency value equals zero.
 
+# 한국어 문제 설명:
+# 문자열 s와 t가 같은 문자들을 같은 개수만큼 포함하고 있는지 판별한다.
+# 문자 순서는 달라도 되지만, 각 문자의 빈도는 완전히 같아야 한다.
+#
+# 내가 처음 작성한 알고리즘의 빈도 계산 방식은 맞았다.
+# 다만 마지막 반환식에서 두 가지 Python 문법을 혼동했다.
+#
+# - Python의 논리 부정은 !가 아니라 not을 사용한다.
+# - Dictionary를 직접 순회하면 값이 아니라 키가 나온다.
+# - 여기서는 counts.values()의 모든 값이 0인지 확인해야 한다.
+# - 따라서 all(count == 0 for count in counts.values())를 사용한다.
+
 
 def is_anagram(s: str, t: str) -> bool:
     if len(s) != len(t):
@@ -59,6 +71,7 @@ assert is_anagram("rat", "car") is False
 assert is_anagram("aacc", "ccac") is False
 assert is_anagram("", "") is True
 
-# Complexity:
-# Time: O(N)
-# Space: O(K), where K is the number of distinct characters.
+# Complexity / 복잡도:
+# Time / 시간: O(N)
+# Space / 공간: O(K), where K is the number of distinct characters.
+# K는 서로 다른 문자의 개수다.
