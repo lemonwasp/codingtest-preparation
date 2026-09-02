@@ -28,8 +28,9 @@ Detailed plan: [`docs/8-week-roadmap.md`](docs/8-week-roadmap.md)
 | Date | Focus | Status |
 |---|---|---|
 | 2026-08-31 | Python basics, List, Dict, Set, Sorting | Started |
+| 2026-09-02 | Hash Map: Two Sum, Valid Anagram, Python syntax | Completed |
 
-Daily log: [`daily/2026-08-31.md`](daily/2026-08-31.md)
+Daily logs: [`2026-08-31`](daily/2026-08-31.md) · [`2026-09-02`](daily/2026-09-02.md)
 
 ## Study Rules
 
@@ -45,16 +46,15 @@ Daily log: [`daily/2026-08-31.md`](daily/2026-08-31.md)
 ```text
 .
 ├── daily/
-│   └── 2026-08-31.md
+│   ├── 2026-08-31.md
+│   └── 2026-09-02.md
 ├── docs/
 │   ├── 8-week-roadmap.md
 │   └── solving-checklist.md
-├── templates/
-│   └── python/
-│       └── README.md
 ├── problems/
 │   └── week01/
-│       └── README.md
+│       ├── 01_two_sum.py
+│       └── 02_valid_anagram.py
 └── reviews/
     └── mistake-log.md
 ```
