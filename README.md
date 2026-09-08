@@ -29,8 +29,9 @@ Detailed plan: [`docs/8-week-roadmap.md`](docs/8-week-roadmap.md)
 |---|---|---|
 | 2026-08-31 | Python basics, List, Dict, Set, Sorting | Started |
 | 2026-09-02 | Hash Map: Two Sum, Valid Anagram, Python syntax | Completed |
+| 2026-09-08 | Concepts 01-05: List/Array, Stack, Queue/Deque, Set/Hash, Dict/HashMap | Completed |
 
-Daily logs: [`2026-08-31`](daily/2026-08-31.md) · 2026-09-02 ([English](daily/2026-09-02.md) · [한국어](daily/2026-09-02.ko.md))
+Daily logs: [`2026-08-31`](daily/2026-08-31.md) · 2026-09-02 ([English](daily/2026-09-02.md) · [한국어](daily/2026-09-02.ko.md)) · [`2026-09-08`](daily/2026-09-08.md)
 
 ## Study Rules
 
@@ -48,7 +49,8 @@ Daily logs: [`2026-08-31`](daily/2026-08-31.md) · 2026-09-02 ([English](daily/2
 ├── daily/
 │   ├── 2026-08-31.md
 │   ├── 2026-09-02.md
-│   └── 2026-09-02.ko.md
+│   ├── 2026-09-02.ko.md
+│   └── 2026-09-08.md
 ├── docs/
 │   ├── 8-week-roadmap.md
 │   └── solving-checklist.md
